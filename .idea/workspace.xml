@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e9b8e62-d482-4567-a1fa-5f826ef1387c" name="Default Changelist" comment="" />
+    <list default="true" id="3e9b8e62-d482-4567-a1fa-5f826ef1387c" name="Default Changelist" comment="Java">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch04-aop-leadin/ch04-aop-leadin.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch04-aop-leadin/src/com/bjpowernode/handler/MyInvocationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch04-aop-leadin/src/com/bjpowernode/service/MyApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch04-aop-leadin/src/com/bjpowernode/service/SomeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch04-aop-leadin/src/com/bjpowernode/service/impl/SomeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch04-aop-leadin/src/com/bjpowernode/utils/ServiceTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,8 +28,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="beans" />
-        <option value="Class" />
         <option value="Spring-Beans" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
@@ -26,7 +42,9 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectId" id="1lVxC2eEqalpVqBL8giYTsrN8bF" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
@@ -34,34 +52,65 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="XML" />
     <property name="jdk.selected.JAVA_MODULE" value="15" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ch03-di-anno/src/main/java/com/bjpowernode/ba06" />
+    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/ch05-aop-AspectJ/src/main/java/com/bjpowernode/ba03" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.bjpowernode.ba01" />
+      <recent name="com.bjpowernode.service" />
       <recent name="com.bjpowernode.service.impl" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\juanz\IdeaProjects\ch05-aop-AspectJ\src\main\java\com\bjpowernode\ba03" />
+      <recent name="C:\Users\juanz\IdeaProjects\ch05-aop-AspectJ\src\main\java\com\bjpowernode\ba02" />
       <recent name="D:\SpringBoot\ch03-di-anno\src\main\java\com\bjpowernode\ba06" />
       <recent name="D:\SpringBoot\ch03-di-anno\src\main\java\com\bjpowernode\ba05" />
       <recent name="D:\SpringBoot\ch03-di-anno\src\main\java\com\bjpowernode\ba04" />
-      <recent name="D:\SpringBoot\ch01-HelloSpring\src\main\resources\ba06" />
-      <recent name="D:\SpringBoot\ch01-HelloSpring\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.bjpowernode" />
-      <recent name="com.bjpowernode.ba03" />
       <recent name="com.bjpowernode.ba02" />
+      <recent name="com.bjpowernode.ba03" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AppTest06.Test01">
-    <configuration name="AppTest03.Test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ch03-di-anno" />
+  <component name="RunManager" selected="JUnit.AppTest02.test01">
+    <configuration name="MyApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bjpowernode.service.MyApp" />
+      <module name="ch04-aop-leadin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bjpowernode.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch05-aop-AspectJ" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.bjpowernode.*" />
@@ -69,39 +118,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.bjpowernode" />
-      <option name="MAIN_CLASS_NAME" value="com.bjpowernode.AppTest03" />
-      <option name="METHOD_NAME" value="Test01" />
+      <option name="MAIN_CLASS_NAME" value="com.bjpowernode.AppTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest02.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch05-aop-AspectJ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bjpowernode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bjpowernode" />
+      <option name="MAIN_CLASS_NAME" value="com.bjpowernode.AppTest02" />
+      <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppTest04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ch03-di-anno" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bjpowernode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.bjpowernode" />
-      <option name="MAIN_CLASS_NAME" value="com.bjpowernode.AppTest04" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppTest05" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ch03-di-anno" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bjpowernode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.bjpowernode" />
-      <option name="MAIN_CLASS_NAME" value="com.bjpowernode.AppTest05" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -139,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AppTest02.test01" />
+        <item itemvalue="JUnit.AppTest" />
+        <item itemvalue="Application.MyApp" />
         <item itemvalue="JUnit.AppTest06.Test01" />
         <item itemvalue="JUnit.AppTest06" />
-        <item itemvalue="JUnit.AppTest05" />
-        <item itemvalue="JUnit.AppTest04" />
-        <item itemvalue="JUnit.AppTest03.Test01" />
       </list>
     </recent_temporary>
   </component>
@@ -155,8 +189,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607695943303</updated>
+      <workItem from="1607789917228" duration="282000" />
+      <workItem from="1607792640140" duration="246000" />
+      <workItem from="1607793434432" duration="2331000" />
+      <workItem from="1607854384271" duration="10749000" />
     </task>
+    <task id="LOCAL-00001" summary="Java">
+      <created>1607782433404</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607782433404</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
