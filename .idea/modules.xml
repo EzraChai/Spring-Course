@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/../ch03-di-anno/ch03-di-anno.iml" filepath="$PROJECT_DIR$/../ch03-di-anno/ch03-di-anno.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch04-aop-leadin/ch04-aop-leadin.iml" filepath="$PROJECT_DIR$/ch04-aop-leadin/ch04-aop-leadin.iml" />
       <module fileurl="file://$USER_HOME$/IdeaProjects/ch05-aop-AspectJ/ch05-aop-AspectJ.iml" filepath="$USER_HOME$/IdeaProjects/ch05-aop-AspectJ/ch05-aop-AspectJ.iml" />
+      <module fileurl="file://$USER_HOME$/IdeaProjects/ch06-spring-mybatis/ch06-spring-mybatis/ch06-spring-mybatis.iml" filepath="$USER_HOME$/IdeaProjects/ch06-spring-mybatis/ch06-spring-mybatis/ch06-spring-mybatis.iml" />
     </modules>
   </component>
 </project>
